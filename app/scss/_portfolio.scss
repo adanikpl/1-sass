@@ -1,0 +1,55 @@
+/* portfolio */
+
+#portfolio {
+    text-align: center;
+    
+    .portfolio-inner {
+        height: 350px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+        .mask {
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            opacity: 0;
+            transition: all 0.4s;
+            
+                .border {
+                    border: 1px solid #FFF;
+                    height: 100%;
+                    position: relative;
+                    
+                        .content {
+                            color: #fff;
+                            position: absolute;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            width: 100%;
+                        }
+
+                }
+    }
+}
+    
+    .portfolio-inner.img-1 {
+    background-image: url('../img/portfolio1.jpg');
+}
+
+    .portfolio-inner.img-2 {
+    background-image: url('../img/portfolio2.jpg');
+}
+
+    .portfolio-inner.img-3 {
+    background-image: url('../img/portfolio3.jpg');
+}
+
+ 
+    
+}
+
+
+#portfolio .portfolio-inner:hover .mask {
+    opacity: 1;
+}

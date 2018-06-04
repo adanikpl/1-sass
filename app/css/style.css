@@ -1,0 +1,143 @@
+/* about */
+#about {
+  text-align: center;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75); }
+  #about figure img {
+    width: 50%; }
+  #about article p {
+    text-align: left; }
+
+/* contact */
+#contact {
+  background-color: #213b50;
+  color: #FFF; }
+  #contact a {
+    color: limegreen; }
+
+#contact .contact-inner form input:not([type="submit"]),
+#contact .contact-inner form textarea {
+  background-color: #2b4a64;
+  border: 1px solid #2b4a64;
+  padding: 5px; }
+
+#contact .contact-inner form input[type="submit"] {
+  float: right;
+  width: 20%;
+  background-color: limegreen;
+  color: #FFF;
+  border: 0;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-right: -15px; }
+
+/* footer */
+#footer {
+  background-color: #142634;
+  color: #FFF;
+  padding: 0 50px; }
+  #footer p {
+    margin: 0; }
+
+/* header */
+#main-header {
+  height: 100vh;
+  background: url("../img/header-background.jpg") no-repeat;
+  background-size: cover;
+  background-position: center; }
+  #main-header .header-inner {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%); }
+    #main-header .header-inner h1 {
+      color: #fff;
+      font-weight: 100;
+      font-size: 70px; }
+    #main-header .header-inner h2 {
+      font-size: 40px; }
+
+/* helpers */
+.green {
+  color: limegreen;
+  font-weight: normal; }
+
+.clear {
+  clear: both; }
+
+section {
+  padding-top: 50px;
+  padding-bottom: 30px; }
+
+.social-icons {
+  margin-top: 40px;
+  margin-bottom: 20px; }
+  .social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: #FFF;
+    line-height: 40px;
+    border: 1px solid #FFF;
+    margin-right: 10px;
+    transition: all 0.4s; }
+  .social-icons a:hover {
+    background-color: #FFF;
+    color: #213b50; }
+
+.social-icons a:hover {
+  background-color: #FFF;
+  color: #213b50; }
+
+/* nav */
+.nav-link {
+  color: limegreen;
+  text-decoration: none;
+  transition: all 0.4s; }
+  .nav-link :hover {
+    color: #222; }
+
+.nav-item {
+  text-align: right; }
+
+/* portfolio */
+#portfolio {
+  text-align: center; }
+  #portfolio .portfolio-inner {
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; }
+    #portfolio .portfolio-inner .mask {
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 10px;
+      opacity: 0;
+      transition: all 0.4s; }
+      #portfolio .portfolio-inner .mask .border {
+        border: 1px solid #FFF;
+        height: 100%;
+        position: relative; }
+        #portfolio .portfolio-inner .mask .border .content {
+          color: #fff;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 100%; }
+  #portfolio .portfolio-inner.img-1 {
+    background-image: url("../img/portfolio1.jpg"); }
+  #portfolio .portfolio-inner.img-2 {
+    background-image: url("../img/portfolio2.jpg"); }
+  #portfolio .portfolio-inner.img-3 {
+    background-image: url("../img/portfolio3.jpg"); }
+
+#portfolio .portfolio-inner:hover .mask {
+  opacity: 1; }
+
+/* skills */
+#skills {
+  text-align: center; }

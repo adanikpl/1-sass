@@ -1,0 +1,15 @@
+/* nav */
+
+.nav-link {
+    color: limegreen;
+    text-decoration: none;
+    transition: all 0.4s;
+    
+        :hover {
+            color: #222;
+        }
+}
+
+.nav-item {
+    text-align: right;
+}

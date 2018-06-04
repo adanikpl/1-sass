@@ -1,0 +1,29 @@
+/* header */
+
+#main-header {
+    height: 100vh;
+    background: url('../img/header-background.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+        .header-inner {
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            top: 50%;
+            transform: translateY(-50%);
+
+                h1 {
+                    color: #fff;
+                    font-weight: 100;
+                    font-size: 70px;
+                }
+                h2 {
+                    font-size: 40px;
+                }
+        
+}
+    
+    
+    
+}

@@ -1,0 +1,31 @@
+/* contact */
+
+#contact {
+    background-color: #213b50;
+    color: #FFF;
+    
+        a {
+        color: limegreen;
+    }
+}
+
+
+
+#contact .contact-inner form input:not([type="submit"]),
+#contact .contact-inner form textarea {
+    background-color: #2b4a64;
+    border: 1px solid #2b4a64;
+    padding: 5px;
+}
+
+#contact .contact-inner form input[type="submit"] {
+    float: right;
+    width: 20%;
+    background-color: limegreen;
+    color: #FFF;
+    border: 0;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: -15px;
+}
